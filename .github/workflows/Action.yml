@@ -10,7 +10,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: /_build
+          path: _build/
           retention-days: 7
 
       - name: build docker
