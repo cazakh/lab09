@@ -10,7 +10,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: my_file.txt
+          path: logs/log.txt
           retention-days: 7
 
       - name: build docker
